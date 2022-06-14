@@ -1,0 +1,18 @@
+/* This only adds some styles to the build-in styles of Vuetify. */
+/* For example: Margin left and top is already set that framework. */
+/* So, set all styles in the final solution to have complete styles. */
+/* Hint: Play around with the window size. To see the horizontal dividers. */
+.v-divider--inset {
+  max-width: initial !important;
+  max-height: initial !important;
+  &:not(.v-divider--vertical) {
+    margin-top: -1px !important;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+  }
+  
+  &.v-divider--vertical {
+    margin-left: -1px !important;
+    margin-bottom: 8px !important;
+  }
+}
